@@ -1,4 +1,4 @@
 let difficultSpelling = "Mississippi";
-let myRegex = /s+/g;
+let myRegex = /s+/;
 let result = difficultSpelling.match(myRegex);
-console.log(result); // ssi
+console.log(result);
